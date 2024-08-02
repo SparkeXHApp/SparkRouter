@@ -1,0 +1,27 @@
+{
+  "name": "SparkRouter",
+  "version": "0.1.0",
+  "summary": "A short description of SparkRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SparkeXHApp/SparkRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SparkeXHApp": "19953133825@163.com"
+  },
+  "source": {
+    "git": "https://github.com/SparkeXHApp/SparkRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SparkRouter/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

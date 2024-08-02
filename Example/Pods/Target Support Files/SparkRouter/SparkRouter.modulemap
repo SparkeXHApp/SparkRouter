@@ -1,0 +1,6 @@
+framework module SparkRouter {
+  umbrella header "SparkRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

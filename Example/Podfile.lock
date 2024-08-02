@@ -1,0 +1,31 @@
+PODS:
+  - CTMediator (48)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SparkRouter (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - SparkRouter (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SparkRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SparkRouter: f1b176d0b3d5f65325970599080a146621de5a73
+
+PODFILE CHECKSUM: a936b4ead53fab858ecc50731cf13170396b535a
+
+COCOAPODS: 1.13.0

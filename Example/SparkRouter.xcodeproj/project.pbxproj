@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		162CA2B09CE29696E870D834 /* Pods_SparkRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19E6F047F1B3A6857019326B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		19E6F047F1B3A6857019326B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4F16EAE54CFF188927F941B1 /* Pods-SparkRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-SparkRouter_Example/Pods-SparkRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		524A08EC543C7C1EA643E055 /* SparkRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SparkRouter.podspec; path = ../SparkRouter.podspec; sourceTree = "<group>"; };
+		524A08EC543C7C1EA643E055 /* SparkRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SparkRouter.podspec; path = ../SparkRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* SparkRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		697A1E4C00E97E555C752BCA /* Pods-SparkRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-SparkRouter_Tests/Pods-SparkRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		97585BD9A997EF171745439B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		97585BD9A997EF171745439B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C5920CAE0FA4D946BC39EC1A /* Pods-SparkRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-SparkRouter_Example/Pods-SparkRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C8D6ACEF931B228ECEB44CDE /* Pods-SparkRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SparkRouter_Tests/Pods-SparkRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C992863282AA445313064FFF /* Pods_SparkRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				C8D6ACEF931B228ECEB44CDE /* Pods-SparkRouter_Tests.debug.xcconfig */,
 				697A1E4C00E97E555C752BCA /* Pods-SparkRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -310,10 +310,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SparkRouter_Example/Pods-SparkRouter_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/SparkRouter/SparkRouter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SparkRouter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
