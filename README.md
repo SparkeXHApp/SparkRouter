@@ -17,12 +17,12 @@ SparkRouter is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SparkRouter'
+pod 'SparkRouter', :git => 'https://github.com/SparkeXHApp/SparkRouter.git'
 ```
 
 ## Author
 
-Sfh03031, sfhery@foxmail.com
+Sfh03031, sfh894645252@163.com
 
 ## License
 
